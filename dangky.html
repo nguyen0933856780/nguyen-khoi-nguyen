@@ -1,0 +1,45 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Đăng Ký</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="gopy.css">
+</head>
+<body>
+	<form action="dangky.php" method="get" name="dangky">
+		Họ và Tên : <input type="text" name="hoten" >
+		<br/>
+		Giới Tính : <br>
+<input type="radio" value="nam">Nam
+<input type="radio" value="nu">Nữ
+		<br/>
+		Quốc Tịch : <select>
+			<option value="my"> Mỹ</option>
+			<option value="nhat ban"> Nhật Bản</option>
+			<option value="han quoc"> Hàn Quốc</option>
+			<option value="anh"> Anh</option>
+			<option value="trung quoc"> Trung Quốc</option>
+			<option value="nga"> Nga</option>
+			<option value="viet nam"> Việt Nam</option>
+
+		</select>
+		<br/>
+		Sở Thích :<br/>
+		 <input type="checkbox">Thể thao<input type="checkbox">Du Lịch<input type="checkbox">Âm Nhạc<input type="checkbox">Ẩm Thực
+		 <br/>
+		 <br/>
+		 <br/>
+		 Ghi Chú : <textarea cols="70" rows="2" placeholder="...."></textarea>
+		<br/>
+		<br/>
+		<input type="checkbox"> Tôi đồng ý với các điều khoản trên . 
+		<br/>
+		<br/>
+
+		<input type="submit" name="submit" value="Đăng Ký">  <input type="submit" name="submit" value="Nhập Lại">
+		
+	</form>
+
+</body>
+</html>
